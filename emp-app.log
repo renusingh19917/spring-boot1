@@ -1,0 +1,1081 @@
+2023-10-29T11:40:29.498+05:30  WARN 24736 --- [HikariPool-8 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=1d36m26s130ms155µs400ns).
+2023-10-29T13:06:05.055+05:30  WARN 24736 --- [HikariPool-8 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Thread starvation or clock leap detected (housekeeper delta=1h35s25ms628µs700ns).
+2023-10-29T15:23:42.380+05:30  INFO 24736 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-29T15:23:42.523+05:30  INFO 24736 --- [Thread-31] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:23:42.549+05:30  INFO 24736 --- [Thread-31] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:23:42.712+05:30  INFO 24736 --- [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:23:42.761+05:30  INFO 24736 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2023-10-29T15:23:42.777+05:30  INFO 24736 --- [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2023-10-29T15:23:43.447+05:30  INFO 24736 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:23:43.667+05:30  INFO 24736 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 24736 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:23:43.668+05:30  INFO 24736 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:23:44.115+05:30  INFO 24736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:23:44.140+05:30  INFO 24736 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:23:44.544+05:30  INFO 24736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:23:44.546+05:30  INFO 24736 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:23:44.546+05:30  INFO 24736 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:23:44.578+05:30  INFO 24736 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:23:44.578+05:30  INFO 24736 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 903 ms
+2023-10-29T15:23:44.646+05:30  INFO 24736 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:23:44.656+05:30  INFO 24736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2023-10-29T15:23:44.740+05:30  INFO 24736 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection org.postgresql.jdbc.PgConnection@c53923a
+2023-10-29T15:23:44.741+05:30  INFO 24736 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2023-10-29T15:23:44.770+05:30  INFO 24736 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:23:44.927+05:30  INFO 24736 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:23:44.928+05:30  INFO 24736 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:23:45.252+05:30  WARN 24736 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:23:45.597+05:30  WARN 24736 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6fb3a5e2-b041-4230-9a59-5cb825968fe0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-29T15:23:45.671+05:30  INFO 24736 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@12e5530a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1e188c56, org.springframework.security.web.context.SecurityContextHolderFilter@71f20f7, org.springframework.security.web.header.HeaderWriterFilter@6b73d167, org.springframework.security.web.csrf.CsrfFilter@4c7cabc9, org.springframework.security.web.authentication.logout.LogoutFilter@3d976903, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c80c662, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@2c53b247, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@2d724d78, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1f2bc375, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e94f13e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@59dea8f2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6c0313c8, org.springframework.security.web.access.ExceptionTranslationFilter@43f6997f, org.springframework.security.web.access.intercept.AuthorizationFilter@3c76d9b8]
+2023-10-29T15:23:45.701+05:30  INFO 24736 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:23:45.723+05:30  INFO 24736 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:23:45.727+05:30  INFO 24736 --- [restartedMain] com.merc.demo.App                        : Started App in 2.177 seconds (process running for 187267.887)
+2023-10-29T15:23:45.737+05:30  INFO 24736 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   SpringBootWebSecurityConfiguration.SecurityFilterChainConfiguration matched:
+      - AllNestedConditions 2 matched 0 did not; NestedCondition on DefaultWebSecurityCondition.Beans @ConditionalOnMissingBean (types: org.springframework.security.web.SecurityFilterChain; SearchStrategy: all) did not find any beans; NestedCondition on DefaultWebSecurityCondition.Classes @ConditionalOnClass found required classes 'org.springframework.security.web.SecurityFilterChain', 'org.springframework.security.config.annotation.web.builders.HttpSecurity' (DefaultWebSecurityCondition)
+
+   SpringBootWebSecurityConfiguration.WebSecurityEnablerConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.config.annotation.web.configuration.EnableWebSecurity' (OnClassCondition)
+      - @ConditionalOnMissingBean (names: springSecurityFilterChain; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   UserDetailsServiceAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.security.authentication.AuthenticationManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.security.config.annotation.ObjectPostProcessor; SearchStrategy: all) found bean 'objectPostProcessor'; @ConditionalOnMissingBean (types: org.springframework.security.authentication.AuthenticationManager,org.springframework.security.authentication.AuthenticationProvider,org.springframework.security.core.userdetails.UserDetailsService,org.springframework.security.authentication.AuthenticationManagerResolver,org.springframework.security.oauth2.jwt.JwtDecoder,org.springframework.security.oauth2.server.resource.introspection.OpaqueTokenIntrospector,org.springframework.security.oauth2.client.registration.ClientRegistrationRepository,org.springframework.security.saml2.provider.service.registration.RelyingPartyRegistrationRepository; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-10-29T15:24:56.306+05:30  INFO 28124 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 28124 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:24:56.310+05:30  INFO 28124 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:24:56.432+05:30  INFO 28124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-29T15:24:56.432+05:30  INFO 28124 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-29T15:24:57.366+05:30  INFO 28124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:24:57.465+05:30  INFO 28124 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:24:59.005+05:30  INFO 28124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:24:59.030+05:30  INFO 28124 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:24:59.031+05:30  INFO 28124 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:24:59.150+05:30  INFO 28124 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:24:59.150+05:30  INFO 28124 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2717 ms
+2023-10-29T15:24:59.468+05:30  INFO 28124 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:24:59.547+05:30  INFO 28124 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-29T15:24:59.941+05:30  INFO 28124 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-29T15:25:00.220+05:30  INFO 28124 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3f2085b
+2023-10-29T15:25:00.222+05:30  INFO 28124 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-29T15:25:00.287+05:30  INFO 28124 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:25:01.391+05:30  INFO 28124 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:25:01.413+05:30  INFO 28124 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:25:02.373+05:30  WARN 28124 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:25:03.150+05:30  WARN 28124 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 48302dbd-9169-418b-a6a8-616e559e4ec6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-29T15:25:03.497+05:30  INFO 28124 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@a0cf171, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78565966, org.springframework.security.web.context.SecurityContextHolderFilter@27c1fc5b, org.springframework.security.web.header.HeaderWriterFilter@7fda7e79, org.springframework.security.web.csrf.CsrfFilter@3b7f1ab7, org.springframework.security.web.authentication.logout.LogoutFilter@7a71112, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6bfbd4c2, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@564cd906, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46973b64, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@406fc21a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@46c46c32, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cbd4feb, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@331cbec8, org.springframework.security.web.access.ExceptionTranslationFilter@6ebdca21, org.springframework.security.web.access.intercept.AuthorizationFilter@51c156e5]
+2023-10-29T15:25:03.592+05:30  INFO 28124 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:25:03.692+05:30  INFO 28124 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:25:03.706+05:30  INFO 28124 --- [restartedMain] com.merc.demo.App                        : Started App in 8.045 seconds (process running for 9.516)
+2023-10-29T15:25:22.394+05:30  INFO 28124 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:25:22.394+05:30  INFO 28124 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:25:22.397+05:30  INFO 28124 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-29T15:25:22.605+05:30  WARN 28124 --- [http-nio-8090-exec-1] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [167] milliseconds.
+2023-10-29T15:27:54.434+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 26584 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:27:54.438+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:27:54.514+05:30  INFO 26584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-29T15:27:54.515+05:30  INFO 26584 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-29T15:27:55.493+05:30  INFO 26584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:27:55.581+05:30  INFO 26584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:27:57.170+05:30  INFO 26584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:27:57.193+05:30  INFO 26584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:27:57.194+05:30  INFO 26584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:27:57.352+05:30  INFO 26584 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:27:57.353+05:30  INFO 26584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2837 ms
+2023-10-29T15:27:57.773+05:30  INFO 26584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:27:57.903+05:30  INFO 26584 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-29T15:27:58.466+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-29T15:27:58.817+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@403ac916
+2023-10-29T15:27:58.820+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-29T15:27:58.872+05:30  INFO 26584 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:28:00.135+05:30  INFO 26584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:28:00.149+05:30  INFO 26584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:28:01.684+05:30  WARN 26584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:28:02.969+05:30  WARN 26584 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e1a14542-11a1-4c7f-9ff9-0e3ef89004f0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-29T15:28:03.392+05:30  INFO 26584 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1a018eb5, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a26b3fe, org.springframework.security.web.context.SecurityContextHolderFilter@28d9d2bc, org.springframework.security.web.header.HeaderWriterFilter@26c2581f, org.springframework.security.web.csrf.CsrfFilter@6a1c58e6, org.springframework.security.web.authentication.logout.LogoutFilter@4e821617, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4c073cbe, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@573405df, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3d3c56ae, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@e27314d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2a856ef1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@26107e56, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@70aac63b, org.springframework.security.web.access.ExceptionTranslationFilter@3b08a92e, org.springframework.security.web.access.intercept.AuthorizationFilter@17eb04b8]
+2023-10-29T15:28:03.576+05:30  INFO 26584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:28:03.676+05:30  INFO 26584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:28:03.697+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : Started App in 9.773 seconds (process running for 10.431)
+2023-10-29T15:28:50.463+05:30  INFO 26584 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 19 class path changes (0 additions, 4 deletions, 15 modifications)
+2023-10-29T15:28:50.487+05:30  INFO 26584 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:28:50.500+05:30  INFO 26584 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:28:50.505+05:30  INFO 26584 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-29T15:28:50.513+05:30  INFO 26584 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-29T15:29:48.091+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:30:03.430+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 26584 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:30:03.431+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:30:03.720+05:30  INFO 26584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:30:03.748+05:30  INFO 26584 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:30:04.039+05:30  INFO 26584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:30:04.042+05:30  INFO 26584 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:30:04.043+05:30  INFO 26584 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:30:04.084+05:30  INFO 26584 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:30:04.085+05:30  INFO 26584 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 649 ms
+2023-10-29T15:30:04.200+05:30  INFO 26584 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:30:04.208+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-29T15:30:04.313+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@1a46c561
+2023-10-29T15:30:04.314+05:30  INFO 26584 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-29T15:30:04.327+05:30  INFO 26584 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:30:04.472+05:30  INFO 26584 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:30:04.473+05:30  INFO 26584 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:30:04.959+05:30  WARN 26584 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:30:05.685+05:30  WARN 26584 --- [restartedMain] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8d95d3f-aa83-42f2-b7e2-1ced9c18d888
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-10-29T15:30:05.831+05:30  INFO 26584 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28fa12a9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@b5ea8c9, org.springframework.security.web.context.SecurityContextHolderFilter@65c62de2, org.springframework.security.web.header.HeaderWriterFilter@4e0d904, org.springframework.security.web.csrf.CsrfFilter@c0c75c3, org.springframework.security.web.authentication.logout.LogoutFilter@7b080205, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8acf2b1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7adcaeff, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@6488fa69, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@338fd18b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a0beef4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7876600c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29467cfa, org.springframework.security.web.access.ExceptionTranslationFilter@24cac8b9, org.springframework.security.web.access.intercept.AuthorizationFilter@2f0180c7]
+2023-10-29T15:30:05.922+05:30  INFO 26584 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:30:05.954+05:30  INFO 26584 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:30:05.960+05:30  INFO 26584 --- [restartedMain] com.merc.demo.App                        : Started App in 2.56 seconds (process running for 132.694)
+2023-10-29T15:30:05.971+05:30  INFO 26584 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:30:18.360+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:30:18.363+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:30:18.479+05:30  INFO 10860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-29T15:30:18.480+05:30  INFO 10860 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-29T15:30:19.400+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:30:19.491+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:30:20.972+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:30:21.004+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:30:21.005+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:30:21.180+05:30  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:30:21.181+05:30  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2699 ms
+2023-10-29T15:30:21.570+05:30  INFO 10860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:30:21.678+05:30  INFO 10860 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-29T15:30:22.074+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-29T15:30:22.381+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@63bd5a83
+2023-10-29T15:30:22.387+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-29T15:30:22.498+05:30  INFO 10860 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:30:24.009+05:30  INFO 10860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:30:24.022+05:30  INFO 10860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:30:25.918+05:30  WARN 10860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:30:27.290+05:30  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:30:27.394+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:30:27.430+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Started App in 9.566 seconds (process running for 10.188)
+2023-10-29T15:30:37.170+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:30:37.172+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:30:37.175+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2023-10-29T15:32:59.425+05:30  INFO 10860 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-29T15:32:59.444+05:30  INFO 10860 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:32:59.446+05:30  INFO 10860 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:32:59.453+05:30  INFO 10860 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:32:59.461+05:30  INFO 10860 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-29T15:32:59.474+05:30  INFO 10860 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-29T15:32:59.527+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:32:59.582+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:32:59.583+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:32:59.926+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:32:59.951+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:33:00.190+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2023-10-29T15:33:00.191+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:33:00.192+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:33:00.224+05:30  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:33:00.225+05:30  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 636 ms
+2023-10-29T15:33:00.344+05:30  INFO 10860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:33:00.355+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-29T15:33:00.468+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@261aa750
+2023-10-29T15:33:00.469+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-29T15:33:00.480+05:30  INFO 10860 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:33:00.636+05:30  INFO 10860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:33:00.637+05:30  INFO 10860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:33:01.159+05:30  WARN 10860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:33:01.743+05:30  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:33:01.773+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2023-10-29T15:33:01.778+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Started App in 2.242 seconds (process running for 164.536)
+2023-10-29T15:33:01.783+05:30  INFO 10860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:33:31.988+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:33:31.989+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:33:31.991+05:30  INFO 10860 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-29T15:33:36.460+05:30  INFO 10860 --- [http-nio-8090-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:33:36.467+05:30  INFO 10860 --- [http-nio-8090-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:33:36.470+05:30  INFO 10860 --- [http-nio-8090-exec-4] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:33:36.735+05:30  INFO 10860 --- [http-nio-8090-exec-4] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:33:42.809+05:30  INFO 10860 --- [http-nio-8090-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:33:42.810+05:30  INFO 10860 --- [http-nio-8090-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:33:42.810+05:30  INFO 10860 --- [http-nio-8090-exec-7] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:33:42.820+05:30  INFO 10860 --- [http-nio-8090-exec-7] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:34:39.213+05:30  INFO 10860 --- [http-nio-8090-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:34:39.215+05:30  INFO 10860 --- [http-nio-8090-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:34:39.215+05:30  INFO 10860 --- [http-nio-8090-exec-1] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:34:39.224+05:30  INFO 10860 --- [http-nio-8090-exec-1] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:34:56.034+05:30  INFO 10860 --- [http-nio-8090-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:34:56.036+05:30  INFO 10860 --- [http-nio-8090-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:34:56.036+05:30  INFO 10860 --- [http-nio-8090-exec-3] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:34:56.043+05:30  INFO 10860 --- [http-nio-8090-exec-3] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:35:24.714+05:30  INFO 10860 --- [http-nio-8090-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:35:24.715+05:30  INFO 10860 --- [http-nio-8090-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:35:24.716+05:30  INFO 10860 --- [http-nio-8090-exec-2] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:35:24.724+05:30  INFO 10860 --- [http-nio-8090-exec-2] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:35:47.600+05:30  INFO 10860 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-29T15:35:47.619+05:30  INFO 10860 --- [Thread-7] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:35:47.620+05:30  INFO 10860 --- [Thread-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:35:47.628+05:30  INFO 10860 --- [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:35:47.630+05:30  INFO 10860 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2023-10-29T15:35:47.635+05:30  INFO 10860 --- [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2023-10-29T15:35:47.700+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:35:47.782+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:35:47.783+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:35:48.117+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:35:48.152+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:35:48.396+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-10-29T15:35:48.399+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:35:48.400+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:35:48.449+05:30  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:35:48.451+05:30  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 664 ms
+2023-10-29T15:35:48.567+05:30  INFO 10860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:35:48.578+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2023-10-29T15:35:48.737+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@4ab47a87
+2023-10-29T15:35:48.737+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2023-10-29T15:35:48.748+05:30  INFO 10860 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:35:48.909+05:30  INFO 10860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:35:48.910+05:30  INFO 10860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:35:49.388+05:30  WARN 10860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:35:50.085+05:30  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:35:50.133+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-10-29T15:35:50.137+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Started App in 2.414 seconds (process running for 332.895)
+2023-10-29T15:35:50.138+05:30  INFO 10860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:35:57.203+05:30  INFO 10860 --- [http-nio-8070-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:35:57.203+05:30  INFO 10860 --- [http-nio-8070-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:35:57.205+05:30  INFO 10860 --- [http-nio-8070-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-10-29T15:36:58.482+05:30  INFO 10860 --- [http-nio-8070-exec-8] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:36:58.485+05:30  INFO 10860 --- [http-nio-8070-exec-8] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:36:58.487+05:30  INFO 10860 --- [http-nio-8070-exec-8] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:36:58.506+05:30  INFO 10860 --- [http-nio-8070-exec-8] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:37:00.504+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:37:00.505+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:37:00.506+05:30  INFO 10860 --- [http-nio-8070-exec-1] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:37:00.516+05:30  INFO 10860 --- [http-nio-8070-exec-1] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:37:40.121+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:37:40.123+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:37:40.123+05:30  INFO 10860 --- [http-nio-8070-exec-6] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:37:40.128+05:30  INFO 10860 --- [http-nio-8070-exec-6] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:37:42.530+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:37:42.533+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:37:42.533+05:30  INFO 10860 --- [http-nio-8070-exec-9] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:37:42.543+05:30  INFO 10860 --- [http-nio-8070-exec-9] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:37:53.512+05:30  INFO 10860 --- [http-nio-8070-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:37:53.514+05:30  INFO 10860 --- [http-nio-8070-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.getEmpById(Integer)
+2023-10-29T15:37:53.514+05:30  INFO 10860 --- [http-nio-8070-exec-7] com.merc.demo.service.EmployeeService    : 2
+2023-10-29T15:37:53.565+05:30  WARN 10860 --- [http-nio-8070-exec-7] com.merc.demo.service.EmployeeService    : Employee with eid 2 not found!
+2023-10-29T15:37:53.567+05:30  INFO 10860 --- [http-nio-8070-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : 2
+2023-10-29T15:37:53.614+05:30  WARN 10860 --- [http-nio-8070-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.merc.demo.exception.EmployeeNotFoundException: Employee with eid 2 not found!]
+2023-10-29T15:37:55.430+05:30  INFO 10860 --- [http-nio-8070-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:37:55.430+05:30  INFO 10860 --- [http-nio-8070-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.getEmpById(Integer)
+2023-10-29T15:37:55.430+05:30  INFO 10860 --- [http-nio-8070-exec-4] com.merc.demo.service.EmployeeService    : 2
+2023-10-29T15:37:55.442+05:30  WARN 10860 --- [http-nio-8070-exec-4] com.merc.demo.service.EmployeeService    : Employee with eid 2 not found!
+2023-10-29T15:37:55.443+05:30  INFO 10860 --- [http-nio-8070-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : 2
+2023-10-29T15:37:55.445+05:30  WARN 10860 --- [http-nio-8070-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.merc.demo.exception.EmployeeNotFoundException: Employee with eid 2 not found!]
+2023-10-29T15:38:09.174+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:38:09.175+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:38:09.175+05:30  INFO 10860 --- [http-nio-8070-exec-5] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:38:09.180+05:30  INFO 10860 --- [http-nio-8070-exec-5] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:39:00.250+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:39:00.251+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:39:00.251+05:30  INFO 10860 --- [http-nio-8070-exec-6] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:39:00.255+05:30  INFO 10860 --- [http-nio-8070-exec-6] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:39:11.017+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:39:11.018+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:39:11.018+05:30  INFO 10860 --- [http-nio-8070-exec-9] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:39:11.022+05:30  INFO 10860 --- [http-nio-8070-exec-9] c.m.demo.controller.EmployeeController   : 0
+2023-10-29T15:39:44.587+05:30  INFO 10860 --- [http-nio-8070-exec-10] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:39:44.588+05:30  INFO 10860 --- [http-nio-8070-exec-10] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:39:44.589+05:30  INFO 10860 --- [http-nio-8070-exec-10] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:39:44.589+05:30  INFO 10860 --- [http-nio-8070-exec-10] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:39:44.589+05:30  INFO 10860 --- [http-nio-8070-exec-10] c.merc.demo.service.DepartmentService    : 503
+2023-10-29T15:39:44.624+05:30  INFO 10860 --- [http-nio-8070-exec-10] com.merc.demo.service.EmployeeService    : Employee [eid=104, firstName=Michael, salary=5600.0, department=Department [did=503, departmentName=null, city=null]]
+2023-10-29T15:39:44.710+05:30  INFO 10860 --- [http-nio-8070-exec-10] c.m.demo.controller.EmployeeController   : Employee [eid=1, firstName=Michael, salary=5600.0, department=Department [did=503, departmentName=Security, city=Pune]]
+2023-10-29T15:39:58.285+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:39:58.286+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:39:58.286+05:30  INFO 10860 --- [http-nio-8070-exec-3] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:39:58.306+05:30  INFO 10860 --- [http-nio-8070-exec-3] c.m.demo.controller.EmployeeController   : 1
+2023-10-29T15:40:59.347+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:40:59.348+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:40:59.348+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:40:59.348+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:40:59.350+05:30  INFO 10860 --- [http-nio-8070-exec-2] c.merc.demo.service.DepartmentService    : 501
+2023-10-29T15:40:59.358+05:30  INFO 10860 --- [http-nio-8070-exec-2] com.merc.demo.service.EmployeeService    : Employee [eid=105, firstName=Renu, salary=5601.0, department=Department [did=501, departmentName=null, city=null]]
+2023-10-29T15:40:59.367+05:30  INFO 10860 --- [http-nio-8070-exec-2] c.m.demo.controller.EmployeeController   : Employee [eid=2, firstName=Renu, salary=5601.0, department=Department [did=501, departmentName=HR, city=Pune]]
+2023-10-29T15:41:20.339+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:20.339+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:41:20.340+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:20.341+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:41:20.341+05:30  INFO 10860 --- [http-nio-8070-exec-5] c.merc.demo.service.DepartmentService    : 503
+2023-10-29T15:41:20.345+05:30  INFO 10860 --- [http-nio-8070-exec-5] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=503, departmentName=null, city=null]]
+2023-10-29T15:41:20.376+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=503, departmentName=null, city=null]]
+2023-10-29T15:41:20.380+05:30 ERROR 10860 --- [http-nio-8070-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]] with root cause
+
+jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:148) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:184) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:74) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:309) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:249) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:356) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:178) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:830) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:816) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:591) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244) ~[spring-aop-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy134.save(Unknown Source) ~[na:na]
+	at com.merc.demo.service.EmployeeService.addEmployee(EmployeeService.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.13.jar:6.0.13]
+	at com.merc.demo.service.EmployeeService$$SpringCGLIB$$0.addEmployee(<generated>) ~[classes/:na]
+	at com.merc.demo.controller.EmployeeController.addEmp(EmployeeController.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-29T15:41:38.218+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:38.220+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:41:38.221+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:38.222+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:41:38.222+05:30  INFO 10860 --- [http-nio-8070-exec-9] c.merc.demo.service.DepartmentService    : 503
+2023-10-29T15:41:38.228+05:30  INFO 10860 --- [http-nio-8070-exec-9] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=503, departmentName=null, city=null]]
+2023-10-29T15:41:38.236+05:30  INFO 10860 --- [http-nio-8070-exec-9] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=503, departmentName=null, city=null]]
+2023-10-29T15:41:38.238+05:30 ERROR 10860 --- [http-nio-8070-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]] with root cause
+
+jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:148) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:184) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:74) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:309) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:249) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:356) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:178) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:830) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:816) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:591) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244) ~[spring-aop-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy134.save(Unknown Source) ~[na:na]
+	at com.merc.demo.service.EmployeeService.addEmployee(EmployeeService.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.13.jar:6.0.13]
+	at com.merc.demo.service.EmployeeService$$SpringCGLIB$$0.addEmployee(<generated>) ~[classes/:na]
+	at com.merc.demo.controller.EmployeeController.addEmp(EmployeeController.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-29T15:41:47.152+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:47.153+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:41:47.153+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:47.153+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:41:47.153+05:30  INFO 10860 --- [http-nio-8070-exec-3] c.merc.demo.service.DepartmentService    : 501
+2023-10-29T15:41:47.159+05:30  INFO 10860 --- [http-nio-8070-exec-3] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=501, departmentName=null, city=null]]
+2023-10-29T15:41:47.164+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee [eid=106, firstName=Adi, salary=5601.0, department=Department [did=501, departmentName=null, city=null]]
+2023-10-29T15:41:47.166+05:30 ERROR 10860 --- [http-nio-8070-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]] with root cause
+
+jakarta.validation.ConstraintViolationException: Validation failed for classes [com.merc.demo.model.Employee] during persist time for groups [jakarta.validation.groups.Default, ]
+List of constraint violations:[
+	ConstraintViolationImpl{interpolatedMessage='length should be 4 to 20 characters!', propertyPath=firstName, rootBeanClass=class com.merc.demo.model.Employee, messageTemplate='length should be 4 to 20 characters!'}
+]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.validate(BeanValidationEventListener.java:148) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.cfg.beanvalidation.BeanValidationEventListener.onPreInsert(BeanValidationEventListener.java:80) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.preInsert(EntityIdentityInsertAction.java:184) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.action.internal.EntityIdentityInsertAction.execute(EntityIdentityInsertAction.java:74) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.execute(ActionQueue.java:653) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:283) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:264) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:322) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:340) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:286) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:192) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:122) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.saveTransientEntity(DefaultMergeEventListener.java:309) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsTransient(DefaultMergeEventListener.java:249) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.entityIsDetached(DefaultMergeEventListener.java:356) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:178) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.internal.DefaultMergeEventListener.onMerge(DefaultMergeEventListener.java:81) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:107) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.fireMerge(SessionImpl.java:830) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at org.hibernate.internal.SessionImpl.merge(SessionImpl.java:816) ~[hibernate-core-6.1.7.Final.jar:6.1.7.Final]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:360) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy132.merge(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:591) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:288) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:136) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:120) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:516) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:628) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:168) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:143) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:72) ~[spring-data-commons-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:391) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:164) ~[spring-data-jpa-3.0.11.jar:3.0.11]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:244) ~[spring-aop-6.0.13.jar:6.0.13]
+	at jdk.proxy6/jdk.proxy6.$Proxy134.save(Unknown Source) ~[na:na]
+	at com.merc.demo.service.EmployeeService.addEmployee(EmployeeService.java:55) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:64) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751) ~[spring-aop-6.0.13.jar:6.0.13]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703) ~[spring-aop-6.0.13.jar:6.0.13]
+	at com.merc.demo.service.EmployeeService$$SpringCGLIB$$0.addEmployee(<generated>) ~[classes/:na]
+	at com.merc.demo.controller.EmployeeController.addEmp(EmployeeController.java:74) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.13.jar:6.0.13]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.15.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.13.jar:6.0.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:340) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1744) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.15.jar:10.1.15]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-29T15:41:52.186+05:30  INFO 10860 --- [http-nio-8070-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:41:52.189+05:30  INFO 10860 --- [http-nio-8070-exec-4] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:41:52.190+05:30  INFO 10860 --- [http-nio-8070-exec-4] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:41:52.204+05:30  INFO 10860 --- [http-nio-8070-exec-4] c.m.demo.controller.EmployeeController   : 2
+2023-10-29T15:42:07.069+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:07.071+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:42:07.071+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:07.071+05:30  INFO 10860 --- [http-nio-8070-exec-2] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:42:07.071+05:30  INFO 10860 --- [http-nio-8070-exec-2] c.merc.demo.service.DepartmentService    : 501
+2023-10-29T15:42:07.079+05:30  INFO 10860 --- [http-nio-8070-exec-2] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Aditya, salary=5601.0, department=Department [did=501, departmentName=null, city=null]]
+2023-10-29T15:42:07.089+05:30  INFO 10860 --- [http-nio-8070-exec-2] c.m.demo.controller.EmployeeController   : Employee [eid=3, firstName=Aditya, salary=5601.0, department=Department [did=501, departmentName=HR, city=Pune]]
+2023-10-29T15:42:19.247+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:19.248+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.addEmployee(Employee)
+2023-10-29T15:42:19.248+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:19.248+05:30  INFO 10860 --- [http-nio-8070-exec-5] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Department com.merc.demo.service.DepartmentService.getDepartmentById(Integer)
+2023-10-29T15:42:19.248+05:30  INFO 10860 --- [http-nio-8070-exec-5] c.merc.demo.service.DepartmentService    : 504
+2023-10-29T15:42:19.253+05:30  INFO 10860 --- [http-nio-8070-exec-5] com.merc.demo.service.EmployeeService    : Employee [eid=106, firstName=Arpit, salary=5601.0, department=Department [did=504, departmentName=null, city=null]]
+2023-10-29T15:42:19.263+05:30  INFO 10860 --- [http-nio-8070-exec-5] c.m.demo.controller.EmployeeController   : Employee [eid=4, firstName=Arpit, salary=5601.0, department=Department [did=504, departmentName=Marketing, city=Gurgaon]]
+2023-10-29T15:42:22.542+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:22.543+05:30  INFO 10860 --- [http-nio-8070-exec-6] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:42:22.543+05:30  INFO 10860 --- [http-nio-8070-exec-6] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:42:22.558+05:30  INFO 10860 --- [http-nio-8070-exec-6] c.m.demo.controller.EmployeeController   : 4
+2023-10-29T15:42:42.077+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:42:42.079+05:30  INFO 10860 --- [http-nio-8070-exec-3] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.getEmpById(Integer)
+2023-10-29T15:42:42.079+05:30  INFO 10860 --- [http-nio-8070-exec-3] com.merc.demo.service.EmployeeService    : 3
+2023-10-29T15:42:42.093+05:30  INFO 10860 --- [http-nio-8070-exec-3] c.m.demo.controller.EmployeeController   : Employee [eid=3, firstName=Aditya, salary=5601.0, department=Department [did=501, departmentName=HR, city=Pune]]
+2023-10-29T15:43:15.092+05:30  INFO 10860 --- [http-nio-8070-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:43:15.094+05:30  INFO 10860 --- [http-nio-8070-exec-7] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : List com.merc.demo.service.EmployeeService.getAllEmployees()
+2023-10-29T15:43:15.094+05:30  INFO 10860 --- [http-nio-8070-exec-7] com.merc.demo.service.EmployeeService    : getAllEmployees
+2023-10-29T15:43:15.110+05:30  INFO 10860 --- [http-nio-8070-exec-7] c.m.demo.controller.EmployeeController   : 4
+2023-10-29T15:43:29.466+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:43:29.467+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.getEmpById(Integer)
+2023-10-29T15:43:29.467+05:30  INFO 10860 --- [http-nio-8070-exec-1] com.merc.demo.service.EmployeeService    : 4
+2023-10-29T15:43:29.474+05:30  INFO 10860 --- [http-nio-8070-exec-1] c.m.demo.controller.EmployeeController   : Employee [eid=4, firstName=Arpit, salary=5601.0, department=Department [did=504, departmentName=Marketing, city=Gurgaon]]
+2023-10-29T15:44:14.712+05:30  INFO 10860 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2023-10-29T15:44:14.804+05:30  INFO 10860 --- [Thread-11] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:44:14.806+05:30  INFO 10860 --- [Thread-11] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:44:14.821+05:30  INFO 10860 --- [Thread-11] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:44:14.824+05:30  INFO 10860 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2023-10-29T15:44:14.848+05:30  INFO 10860 --- [Thread-11] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2023-10-29T15:44:14.964+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:44:17.660+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:44:17.661+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:44:18.031+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:44:18.062+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:44:18.227+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-10-29T15:44:18.229+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:44:18.230+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:44:18.277+05:30  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:44:18.278+05:30  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 615 ms
+2023-10-29T15:44:18.393+05:30  INFO 10860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:44:18.411+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2023-10-29T15:44:18.593+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@3fa97344
+2023-10-29T15:44:18.593+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2023-10-29T15:44:18.606+05:30  INFO 10860 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:44:18.767+05:30  INFO 10860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:44:18.767+05:30  INFO 10860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:44:19.204+05:30  WARN 10860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:44:19.615+05:30  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:44:19.629+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-10-29T15:44:19.632+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Started App in 2.017 seconds (process running for 842.39)
+2023-10-29T15:44:19.638+05:30  INFO 10860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:44:27.469+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:44:27.469+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:44:27.470+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-29T15:44:27.473+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : A method from a service class invoked.
+2023-10-29T15:44:27.474+05:30  INFO 10860 --- [http-nio-8070-exec-1] .d.a.EmployeeInterceptor$$SpringCGLIB$$0 : Employee com.merc.demo.service.EmployeeService.getEmpById(Integer)
+2023-10-29T15:44:27.474+05:30  INFO 10860 --- [http-nio-8070-exec-1] com.merc.demo.service.EmployeeService    : 3
+2023-10-29T15:44:27.485+05:30  INFO 10860 --- [http-nio-8070-exec-1] c.m.demo.controller.EmployeeController   : Employee [eid=3, firstName=Aditya, salary=5601.0, department=Department [did=501, departmentName=HR, city=Pune]]
+2023-10-29T15:44:50.049+05:30  INFO 10860 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-29T15:44:50.072+05:30  INFO 10860 --- [Thread-15] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:44:50.073+05:30  INFO 10860 --- [Thread-15] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:44:50.077+05:30  INFO 10860 --- [Thread-15] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:44:50.078+05:30  INFO 10860 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2023-10-29T15:44:50.095+05:30  INFO 10860 --- [Thread-15] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2023-10-29T15:44:50.175+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:44:50.226+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:44:50.226+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:44:50.574+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:44:50.616+05:30  INFO 10860 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:44:50.885+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-10-29T15:44:50.888+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:44:50.891+05:30  INFO 10860 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:44:50.925+05:30  INFO 10860 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:44:50.925+05:30  INFO 10860 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 696 ms
+2023-10-29T15:44:50.997+05:30  INFO 10860 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:44:51.010+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2023-10-29T15:44:51.112+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@34b929f8
+2023-10-29T15:44:51.113+05:30  INFO 10860 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2023-10-29T15:44:51.123+05:30  INFO 10860 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:44:51.227+05:30  INFO 10860 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:44:51.228+05:30  INFO 10860 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:44:51.707+05:30  WARN 10860 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:44:52.251+05:30  INFO 10860 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:44:52.272+05:30  INFO 10860 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-10-29T15:44:52.276+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Started App in 2.09 seconds (process running for 875.035)
+2023-10-29T15:44:52.279+05:30  INFO 10860 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:45:00.554+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:45:00.555+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:45:00.557+05:30  INFO 10860 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-29T15:45:11.188+05:30  INFO 10860 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-29T15:45:11.206+05:30  INFO 10860 --- [Thread-22] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:45:11.206+05:30  INFO 10860 --- [Thread-22] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:45:11.210+05:30  INFO 10860 --- [Thread-22] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:45:11.211+05:30  INFO 10860 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2023-10-29T15:45:11.217+05:30  INFO 10860 --- [Thread-22] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2023-10-29T15:45:11.273+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:45:11.315+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 10860 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:45:11.317+05:30  INFO 10860 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:45:11.460+05:30 ERROR 10860 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: Error processing condition on org.springframework.boot.autoconfigure.context.PropertyPlaceholderAutoConfiguration.propertySourcesPlaceholderConfigurer
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:60) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.context.annotation.ConditionEvaluator.shouldSkip(ConditionEvaluator.java:108) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForBeanMethod(ConfigurationClassBeanDefinitionReader.java:183) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:144) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:779) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:597) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:733) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-3.0.12.jar:3.0.12]
+	at com.merc.demo.App.main(App.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.0.12.jar:3.0.12]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.merc.demo.security.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2486d19b]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.13.jar:6.0.13]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.collectBeanNamesForType(OnBeanCondition.java:246) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:239) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getBeanNamesForType(OnBeanCondition.java:229) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchingBeans(OnBeanCondition.java:182) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.boot.autoconfigure.condition.OnBeanCondition.getMatchOutcome(OnBeanCondition.java:157) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	at org.springframework.boot.autoconfigure.condition.SpringBootCondition.matches(SpringBootCondition.java:47) ~[spring-boot-autoconfigure-3.0.12.jar:3.0.12]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/userdetails/UserDetailsService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.13.jar:6.0.13]
+	... 38 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.userdetails.UserDetailsService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.0.12.jar:3.0.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 42 common frames omitted
+
+2023-10-29T15:45:11.466+05:30  WARN 10860 --- [restartedMain] o.s.boot.SpringApplication               : Unable to close ApplicationContext
+
+java.lang.IllegalStateException: Failed to introspect Class [com.merc.demo.security.SecurityConfig] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2486d19b]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.util.ReflectionUtils.doWithMethods(ReflectionUtils.java:360) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.util.ReflectionUtils.getUniqueDeclaredMethods(ReflectionUtils.java:417) ~[spring-core-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.lambda$getTypeForFactoryMethod$1(AbstractAutowireCapableBeanFactory.java:748) ~[spring-beans-6.0.13.jar:6.0.13]
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708) ~[na:na]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryMethod(AbstractAutowireCapableBeanFactory.java:747) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:680) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:651) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1630) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:560) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:532) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:659) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeansOfType(DefaultListableBeanFactory.java:651) ~[spring-beans-6.0.13.jar:6.0.13]
+	at org.springframework.context.support.AbstractApplicationContext.getBeansOfType(AbstractApplicationContext.java:1312) ~[spring-context-6.0.13.jar:6.0.13]
+	at org.springframework.boot.SpringApplication.getExitCodeFromMappedException(SpringApplication.java:862) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.getExitCodeFromException(SpringApplication.java:850) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.handleExitCode(SpringApplication.java:837) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.handleRunFailure(SpringApplication.java:777) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:324) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301) ~[spring-boot-3.0.12.jar:3.0.12]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290) ~[spring-boot-3.0.12.jar:3.0.12]
+	at com.merc.demo.App.main(App.java:17) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.0.12.jar:3.0.12]
+Caused by: java.lang.NoClassDefFoundError: org/springframework/security/core/userdetails/UserDetailsService
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3402) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2504) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.0.13.jar:6.0.13]
+	... 26 common frames omitted
+Caused by: java.lang.ClassNotFoundException: org.springframework.security.core.userdetails.UserDetailsService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:467) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.0.12.jar:3.0.12]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:525) ~[na:na]
+	... 30 common frames omitted
+
+2023-10-29T15:46:12.036+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 17092 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:46:12.039+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:46:12.118+05:30  INFO 17092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-29T15:46:12.119+05:30  INFO 17092 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-29T15:46:13.301+05:30  INFO 17092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:46:13.388+05:30  INFO 17092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:46:15.330+05:30  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-10-29T15:46:15.353+05:30  INFO 17092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:46:15.353+05:30  INFO 17092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:46:15.520+05:30  INFO 17092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:46:15.521+05:30  INFO 17092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3401 ms
+2023-10-29T15:46:15.981+05:30  INFO 17092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:46:16.116+05:30  INFO 17092 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.1.7.Final
+2023-10-29T15:46:16.635+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-10-29T15:46:16.946+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@eac5c6f
+2023-10-29T15:46:16.950+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-10-29T15:46:17.036+05:30  INFO 17092 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:46:18.301+05:30  INFO 17092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:46:18.315+05:30  INFO 17092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:46:19.635+05:30  WARN 17092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:46:19.713+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : passwordEncoder
+2023-10-29T15:46:19.720+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@322041ad
+2023-10-29T15:46:20.142+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : org.springframework.security.config.annotation.web.builders.HttpSecurity@3b4a8666
+2023-10-29T15:46:20.798+05:30  INFO 17092 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1622172, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74d780d, org.springframework.security.web.context.SecurityContextHolderFilter@34bcf4df, org.springframework.security.web.header.HeaderWriterFilter@70007f9c, org.springframework.security.web.authentication.logout.LogoutFilter@43d376e8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@54574455, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@168ef132, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@14e53f8c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c988817, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1fa84583, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35c0d1fe, org.springframework.security.web.access.ExceptionTranslationFilter@4463506f, org.springframework.security.web.access.intercept.AuthorizationFilter@1ee64fbd]
+2023-10-29T15:46:21.468+05:30  INFO 17092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:46:21.568+05:30  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-10-29T15:46:21.584+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : Started App in 10.103 seconds (process running for 10.787)
+2023-10-29T15:46:26.213+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:46:26.214+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:46:26.217+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-10-29T15:46:35.100+05:30  WARN 17092 --- [http-nio-8070-exec-4] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [180] milliseconds.
+2023-10-29T15:47:08.495+05:30  INFO 17092 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-29T15:47:08.542+05:30  INFO 17092 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-10-29T15:47:08.551+05:30  INFO 17092 --- [Thread-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-29T15:47:08.617+05:30  INFO 17092 --- [Thread-5] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:47:08.630+05:30  INFO 17092 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-10-29T15:47:08.663+05:30  INFO 17092 --- [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-10-29T15:47:08.757+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : Start 
+2023-10-29T15:47:08.859+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : Starting App using Java 17.0.8.1 with PID 17092 (C:\merc-project\renu-ws\merc-springboot-demo4\target\classes started by RENSING in C:\merc-project\renu-ws\merc-springboot-demo4)
+2023-10-29T15:47:08.860+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : No active profile set, falling back to 1 default profile: "default"
+2023-10-29T15:47:09.447+05:30  INFO 17092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-10-29T15:47:09.491+05:30  INFO 17092 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 2 JPA repository interfaces.
+2023-10-29T15:47:09.913+05:30  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8070 (http)
+2023-10-29T15:47:09.915+05:30  INFO 17092 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-29T15:47:09.916+05:30  INFO 17092 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.15]
+2023-10-29T15:47:10.034+05:30  INFO 17092 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-29T15:47:10.035+05:30  INFO 17092 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1165 ms
+2023-10-29T15:47:10.297+05:30  INFO 17092 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-10-29T15:47:10.316+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2023-10-29T15:47:10.509+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@29cc2c40
+2023-10-29T15:47:10.510+05:30  INFO 17092 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2023-10-29T15:47:10.530+05:30  INFO 17092 --- [restartedMain] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2023-10-29T15:47:10.776+05:30  INFO 17092 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-10-29T15:47:10.779+05:30  INFO 17092 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-10-29T15:47:11.614+05:30  WARN 17092 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-10-29T15:47:11.683+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : passwordEncoder
+2023-10-29T15:47:11.690+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder@e9fa05f
+2023-10-29T15:47:12.168+05:30  INFO 17092 --- [restartedMain] c.m.d.s.SecurityConfig$$SpringCGLIB$$0   : org.springframework.security.config.annotation.web.builders.HttpSecurity@5f01d3f4
+2023-10-29T15:47:12.732+05:30  INFO 17092 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3d049447, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31c6a7f8, org.springframework.security.web.context.SecurityContextHolderFilter@10b97342, org.springframework.security.web.header.HeaderWriterFilter@7ce342b9, org.springframework.security.web.authentication.logout.LogoutFilter@57123c35, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b31fc80, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c1b9f5e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@617a75f7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47b8e93c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a0bee2c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@155b50a4, org.springframework.security.web.access.ExceptionTranslationFilter@249131e6, org.springframework.security.web.access.intercept.AuthorizationFilter@32ec400f]
+2023-10-29T15:47:13.133+05:30  INFO 17092 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-10-29T15:47:13.166+05:30  INFO 17092 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8070 (http) with context path ''
+2023-10-29T15:47:13.177+05:30  INFO 17092 --- [restartedMain] com.merc.demo.App                        : Started App in 4.402 seconds (process running for 62.38)
+2023-10-29T15:47:13.181+05:30  INFO 17092 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-10-29T15:47:17.611+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-29T15:47:17.613+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-29T15:47:17.624+05:30  INFO 17092 --- [http-nio-8070-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-10-29T23:37:34.018+05:30  WARN 17092 --- [HikariPool-2 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Thread starvation or clock leap detected (housekeeper delta=7h42m24s971ms716µs700ns).
